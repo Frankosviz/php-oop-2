@@ -1,0 +1,148 @@
+{
+  "cibi_per_animali": [
+    {
+      "ID": "001",
+      "Nome": "Delizie di Pollo e Manzo",
+      "Descrizione": "Mangime completo per cani con pollo e manzo freschi.",
+      "Prezzo": 12.99,
+      "Immagine": "delizie_di_pollo_manzo.jpg",
+      "Disponibilità": 50,
+      "Categoria": "Cane",
+      "Ingredienti": ["Pollo", "Manzo", "Riso", "Verdure"],
+      "Peso": "1 kg",
+      "Formato": "Scatola"
+    },
+    {
+      "ID": "002",
+      "Nome": "Tonno in Gelatina",
+      "Descrizione": "Alimento umido per gatti con tonno fresco in gelatina.",
+      "Prezzo": 8.49,
+      "Immagine": "tonno_in_gelatina.jpg",
+      "Disponibilità": 30,
+      "Categoria": "Gatto",
+      "Ingredienti": ["Tonno", "Gelatina", "Acqua"],
+      "Peso": "200 g",
+      "Formato": "Bustina"
+    },
+    {
+      "ID": "003",
+      "Nome": "Granuli Nutrienti per Pappagalli",
+      "Descrizione": "Alimento completo per pappagalli, ricco di vitamine e minerali.",
+      "Prezzo": 15.79,
+      "Immagine": "granuli_pappagalli.jpg",
+      "Disponibilità": 20,
+      "Categoria": "Uccelli",
+      "Ingredienti": ["Semi", "Frutta secca", "Vitamine", "Minerali"],
+      "Peso": "500 g",
+      "Formato": "Sacchetto"
+    },
+    {
+      "ID": "004",
+      "Nome": "Pellets per Pesci Rossi",
+      "Descrizione": "Cibo in pellet per pesci rossi, favorisce una crescita sana e brillantezza dei colori.",
+      "Prezzo": 6.99,
+      "Immagine": "pellets_pesci_rossi.jpg",
+      "Disponibilità": 40,
+      "Categoria": "Pesci",
+      "Ingredienti": ["Farina di pesce", "Cereali", "Vitamine"],
+      "Peso": "250 g",
+      "Formato": "Barattolo"
+    },
+    {
+      "ID": "005",
+      "Nome": "Biscotti alla Menta per Cani",
+      "Descrizione": "Snack per cani a base di menta, aiuta a mantenere il cattivo alito sotto controllo.",
+      "Prezzo": 4.99,
+      "Immagine": "biscotti_menta_cani.jpg",
+      "Disponibilità": 60,
+      "Categoria": "Cane",
+      "Ingredienti": ["Farina di grano", "Menta", "Olio di semi"],
+      "Peso": "300 g",
+      "Formato": "Busta"
+    },
+    {
+      "ID": "006",
+      "Nome": "Patè di Pollo per Gatti",
+      "Descrizione": "Alimento umido per gatti con patè di pollo, piacevole al palato.",
+      "Prezzo": 7.29,
+      "Immagine": "pate_pollo_gatti.jpg",
+      "Disponibilità": 25,
+      "Categoria": "Gatto",
+      "Ingredienti": ["Pollo", "Brodo", "Farina di mais"],
+      "Peso": "100 g",
+      "Formato": "Barattolo"
+    },
+    {
+      "ID": "007",
+      "Nome": "Mix di Semi per Canarini",
+      "Descrizione": "Selezione di semi per canarini, ricchi di nutrienti essenziali.",
+      "Prezzo": 9.99,
+      "Immagine": "semi_canarini.jpg",
+      "Disponibilità": 35,
+      "Categoria": "Uccelli",
+      "Ingredienti": ["Semi di girasole", "Semi di canapa", "Semi di miglio"],
+      "Peso": "400 g",
+      "Formato": "Sacchetto"
+    },
+    {
+      "ID": "008",
+      "Nome": "Fiocchi di Alghe per Pesci Tropicali",
+      "Descrizione": "Alimento in fiocchi arricchito con alghe, ideale per pesci tropicali.",
+      "Prezzo": 11.49,
+      "Immagine": "fiocchi_alghe_pesci_tropicali.jpg",
+      "Disponibilità": 45,
+      "Categoria": "Pesci",
+      "Ingredienti": ["Pesce", "Alghe", "Cereali"],
+      "Peso": "150 g",
+      "Formato": "Scatola"
+    },
+    {
+      "ID": "009",
+      "Nome": "Stuzzichini di Anatra per Cani",
+      "Descrizione": "Bocconcini appetitosi per cani con gusto di anatra.",
+      "Prezzo": 6.79,
+      "Immagine": "stuzzichini_anatra_cani.jpg",
+      "Disponibilità": 55,
+      "Categoria": "Cane",
+      "Ingredienti": ["Anatra", "Patate", "Glicerina"],
+      "Peso": "250 g",
+      "Formato": "Busta"
+    },
+    {
+      "ID": "010",
+      "Nome": "Salsa al Salmone per Gatti",
+      "Descrizione": "Salsa al salmone per rendere più gustosi i pasti dei gatti.",
+      "Prezzo": 5.49,
+      "Immagine": "salsa_salmone_gatti.jpg",
+      "Disponibilità": 28,
+      "Categoria": "Gatto",
+      "Ingredienti": ["Salmone", "Brodo", "Farina di riso"],
+      "Peso": "80 g",
+      "Formato": "Bustina"
+    },
+    {
+      "ID": "011",
+      "Nome": "Pastoncini ai Semi per Canarini",
+      "Descrizione": "Snack croccanti ai semi per canarini, ricchi di proteine.",
+      "Prezzo": 3.99,
+      "Immagine": "pastoncini_semi_canarini.jpg",
+      "Disponibilità": 42,
+      "Categoria": "Uccelli",
+      "Ingredienti": ["Semi di girasole", "Semi di lino", "Miele"],
+      "Peso": "200 g",
+      "Formato": "Busta"
+    },
+    {
+      "ID": "012",
+      "Nome": "Pellet per Pesci d'Acqua Dolce",
+      "Descrizione": "Cibo in pellet per pesci d'acqua dolce, nutriente e facilmente digeribile.",
+      "Prezzo": 7.99,
+      "Immagine": "pellet_pesci_acqua_dolce.jpg",
+      "Disponibilità": 38,
+      "Categoria": "Pesci",
+      "Ingredienti": ["Farina di pesce", "Cereali", "Vitamine"],
+      "Peso": "300 g",
+      "Formato": "Barattolo"
+    }
+  ]
+}
