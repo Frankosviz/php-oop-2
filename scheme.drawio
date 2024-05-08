@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram id="0DfVgZLiSyY7PZttRIFc" name="Page-1">
+        <mxGraphModel dx="553" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="PRODOTTI&lt;br&gt;id &lt;i&gt;&lt;b&gt;integers&lt;/b&gt;&lt;/i&gt;&lt;br&gt;name &lt;i&gt;&lt;b&gt;string&lt;/b&gt;&lt;/i&gt;&lt;br&gt;description &lt;i&gt;&lt;b&gt;string&lt;/b&gt;&lt;/i&gt;&lt;br&gt;price &lt;i&gt;&lt;b&gt;floating&lt;/b&gt;&lt;br&gt;&lt;/i&gt;img &lt;b style=&quot;font-style: italic;&quot;&gt;string&lt;br&gt;&amp;nbsp;&lt;/b&gt;category&amp;nbsp;&lt;b style=&quot;font-style: italic;&quot;&gt;category&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="40" width="180" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="FOOD&lt;br&gt;ingredients &lt;b&gt;&lt;i&gt;string&lt;/i&gt;&lt;/b&gt;&lt;br&gt;weight&lt;b&gt; &lt;i style=&quot;&quot;&gt;float&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="GAMES&lt;br&gt;material &lt;b&gt;&lt;i&gt;string&lt;/i&gt;&lt;/b&gt;&lt;br&gt;size&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="ACCESSORIES&lt;br&gt;material&amp;nbsp;&lt;b&gt;&lt;i&gt;string&lt;/i&gt;&lt;/b&gt;&lt;br&gt;size&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="CLASSI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="20" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FFFFFF;entryX=0.083;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.794;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="200" as="sourcePoint"/>
+                        <mxPoint x="340" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="160" as="sourcePoint"/>
+                        <mxPoint x="340" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="200" as="sourcePoint"/>
+                        <mxPoint x="340" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="90" y="160" as="sourcePoint"/>
+                        <mxPoint x="140" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="CATEGORY&lt;br&gt;specie &lt;b&gt;&lt;i&gt;string&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="60" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#FFFFFF;" edge="1" parent="1" target="14">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="140" as="sourcePoint"/>
+                        <mxPoint x="380" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="ISTANZE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="20" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="CANE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="120" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="GATTO" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="150" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="UCCELLI" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="180" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="PESCE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="210" width="120" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
