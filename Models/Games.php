@@ -1,5 +1,5 @@
 <?php
-include __DIR__ ."/Prod.php";
+include __DIR__ ."/Product.php";
 class Games extends Prod
 {
     public $material;
@@ -9,6 +9,6 @@ class Games extends Prod
         $this->material = $material;
         $this->size = $size;
         
-        parent::__construct($id, $name, $genre, $price, $category);
+        parent::__construct($id, $name, $genre, $price, $category, $material);
     }
 }

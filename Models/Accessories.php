@@ -1,5 +1,5 @@
 <?php
-include __DIR__ ."/Prod.php";
+include __DIR__ ."/Product.php";
 class Accessories extends Prod
 {
     public $material;
