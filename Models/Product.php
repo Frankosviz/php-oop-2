@@ -1,5 +1,4 @@
 <?php
-include __DIR__ . "/foods_db.json";
 class Prod
 {
     public $id;
@@ -10,14 +9,14 @@ class Prod
 
     public $category;
 
-    public function __construct($id, $name, $description, $img, $category, $price)
+    public function __construct($id, $name, $description, $price, $img, $category)
     {
         $this->id = $id;
         $this->name = $name;
         $this->description = $description;
+        $this->price = $price;
         $this->img = $img;
         $this->category = $category;
-        $this->price = $price;
     }
     public function formatItem()
     {
@@ -56,7 +55,7 @@ class Prod
         $dataToArray = json_decode($data, true);
         if ($className === 'Foods') {
             foreach ($dataToArray as $item) {
-                $items[] = new Foods($item['id'], $item['name'], $item['description'], $item['price'], $item['category'], $item['ingredients'], $item['weight']);
+                $items[] = new Foods($item['id'], $item['name'], $item['description'], $item['price'], $item['image'], $item['category'], $item['weight']);
             }
             return $items;
         } elseif ($className === 'Games') {
