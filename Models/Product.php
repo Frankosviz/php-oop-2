@@ -1,5 +1,4 @@
 <?php
-include __DIR__ . "/foods_db.json";
 class Prod
 {
     public $id;
