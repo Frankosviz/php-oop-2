@@ -12,7 +12,7 @@
     <link grity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" type="text/javascript" defer></script>
-    <title>PHP-OOP-1</title>
+    <title>PHP-OOP-2</title>
 
 </head>
 
