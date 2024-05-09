@@ -3,7 +3,7 @@ include __DIR__ . "/Views/header.php";
 include __DIR__ . "/Models/Foods.php";
 
 $foods = Prod::create('/foods_db.json', 'Foods');
-$games = Prod::create('/games', 'Games');
+/* $games = Prod::create('/games', 'Games'); */
 ?>
 
 <main class="container">
