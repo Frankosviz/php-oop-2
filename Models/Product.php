@@ -32,10 +32,10 @@ class Prod
                 $category = null;
                 foreach ($categories as $cat) {
                     if ($cat->name == $item['category']) {
-                        $category = $cat;                        
+                        $category = $cat;
                     }
                 }
-               $items[] = new Foods($item['id'], $item['name'], $item['description'], $item['price'], $item['image'], $category, $item['ingredients'], $item['weight'], $item['format']);
+                $items[] = new Foods($item['id'], $item['name'], $item['description'], $item['price'], $item['image'], $category, $item['ingredients'], $item['weight'], $item['format']);
             }
             return $items;
         } elseif ($className === 'Games') {
@@ -43,24 +43,25 @@ class Prod
                 $category = null;
                 foreach ($categories as $cat) {
                     if ($cat->name == $item['category']) {
-                        $category = $cat;                        
+                        $category = $cat;
                     }
                 }
-               $items[] = new Games($item['id'], $item['name'], $item['description'], $item['price'], $item['image'], $category, $item['material'], $item['dimensions']);
+                $items[] = new Games($item['id'], $item['name'], $item['description'], $item['price'], $item['image'], $category, $item['material'], $item['size']);
             }
             return $items;
-    }
-    elseif ($className === 'Accessories') {
-        foreach ($dataToArray as $item) {
-            $category = null;
-            foreach ($categories as $cat) {
-                if ($cat->name == $item['category']) {
-                    $category = $cat;                        
+            
+        } elseif ($className === 'Accessories') {
+            foreach ($dataToArray as $item) {
+                $category = null;
+                foreach ($categories as $cat) {
+                    if ($cat->name == $item['category']) {
+                        $category = $cat;
+                    }
                 }
+                $items[] = new Accessories($item['id'], $item['name'], $item['description'], $item['price'], $item['image'], $category,  $item['materials'], $item['weight']);
             }
-           $items[] = new Games($item['id'], $item['name'], $item['description'], $item['price'], $item['image'], $category, $item['material'], $item['dimensions']);
+            return $items;
         }
-        return $items;
-}
 
+    }
 }
