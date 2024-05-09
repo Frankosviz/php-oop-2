@@ -3,6 +3,8 @@ include __DIR__ . "/Views/header.php";
 include __DIR__ . "/Models/Foods.php";
 
 $foods = Prod::create('/foods_db.json', 'Foods');
+$games = Prod::create('/games_db.json', 'Games');
+$accessories = Prod::create('/accessories_db.json', 'Accessories');
 /* $games = Prod::create('/games', 'Games'); */
 ?>
 
@@ -14,12 +16,12 @@ $foods = Prod::create('/foods_db.json', 'Foods');
         <div class="row"><?php foreach ($foods as $food): ?>
                 <div class="col-4">
                     <div class="card">
-                        <img src="<?= $food->img ?>" class="card-img-top" alt="<?= $food->name ?>">
+                        <img src="<?= $food->image ?>" class="card-img-top" alt="<?= $food->name ?>">
                         <div class="card-body">
                             <h5 class="card-title"><?= $food->name ?></h5>
                             <p class="card-text"><?= $food->description ?></p>
-                            <p class="card-text"><?= $food->category ?></p>
-                            <p class="card-text"><?php $food->id ?></p>
+                            <p class="card-text"><?= $food->category->name ?></p>
+                            <p class="card-text"><i class="<?= $food->category->icon ?>"></i></p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
@@ -31,7 +33,19 @@ $foods = Prod::create('/foods_db.json', 'Foods');
     <section>
         <h2>Giochi</h2>
         <div class="row">
-            <div class="col-12 col-md-4 col-lg-3">
+        <?php foreach ($games as $game): ?>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="<?= $game->image ?>" class="card-img-top" alt="<?= $game->name ?>">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $game->name ?></h5>
+                            <p class="card-text"><?= $game->description ?></p>
+                            <p class="card-text"><?= $game->category->name ?></p>
+                            <p class="card-text"><i class="<?= $game->category->icon ?>"></i></p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div><?php endforeach; ?>
 
             </div>
         </div>
@@ -41,7 +55,19 @@ $foods = Prod::create('/foods_db.json', 'Foods');
     <section>
         <h2>Accessori</h2>
         <div class="row">
-            <div class="col-12 col-md-4 col-lg-3">
+        <?php foreach ($accessories as $accessory): ?>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="<?= $accessory->image ?>" class="card-img-top" alt="<?= $accessory->name ?>">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $accessory->name ?></h5>
+                            <p class="card-text"><?= $accessory->description ?></p>
+                            <p class="card-text"><?= $accessory->category->name ?></p>
+                            <p class="card-text"><i class="<?= $accessory->category->icon ?>"></i></p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div><?php endforeach; ?>
 
             </div>
         </div>
